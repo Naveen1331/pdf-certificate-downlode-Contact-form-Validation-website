@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <script src="https://use.fontawesome.com/6521a49059.js"></script>
+  <title>Cotact</title>
+</head>
+<body>
+  <div class="imag">
+      <img class="im" src="images\WhatsApp Image 2020-06-17 at 1.42.21 PM.jpeg" alt="">
+  </div>
+  <div class="container ">
+    <div class="col-12 cl">
+      <h3>Render My Service for #FightAgainstCorona Pledge</h3>
+    </div>
+    <div class="col-12 cl cl2">
+      <h4><span class="eng-text">Enter Basic Details</span></h4>
+    </div>
+    <div class="col-12 col-md-9 ">
+      <form action="">
+        <div class="form-group row ">
+
+          <div class="col-5 col-md-3 ">
+            <label for="name" class=" col-form-label"><i class="fa fa-anchor" aria-hidden="true"></i> Tag</label>
+            <select name="prefix" class="form-control form-select select-prefix" required>
+              <option value="">-Select-</option>
+              <option value="Shri">Shri</option>
+              <option value="Smt">Smt</option>
+              <option value="Kumari">Kumari</option>
+              <option value="Dr">Dr</option>
+              <option value="Master">Master</option>
+              <option value="Miss">Miss</option>
+              <option value="Others" class="other">Others</option>
+            </select>
+          </div>
+          <div class="col-7 col-md-5">
+            <label for="name" class=" col-form-label"><i class="fa fa-user " aria-hidden="true"></i> Full Name</label>
+            <input type="text" class="form-control" id="firstname" name="name" placeholder="Enter Your name Here" required>
+          </div>
+
+        </div>
+        <div class="form-group row">
+
+          <div class="col-12 col-md-10">
+            <label for="numberguest" class="col-form-label"><i class="fa fa-venus-mars" aria-hidden="true"></i> Gender</label>
+            <div class="">
+              <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" id="customRadioInline1" required value="Male" name="Gender" class="custom-control-input">
+                <label class="custom-control-label" for="customRadioInline1">Male</label>
+              </div>
+              <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" id="customRadioInline2" required value="Female" name="Gender" class="custom-control-input">
+                <label class="custom-control-label" for="customRadioInline2">Female</label>
+              </div>
+              <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" id="customRadioInline3" required value="Others" name="Gender" class="custom-control-input">
+                <label class="custom-control-label" for="customRadioInline3">Others</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class=" row">
+
+          <div class="col-5 col-md-3">
+            <label for="dob" class="col-form-label"><i class="fa fa-calendar" aria-hidden="true"></i> Date Of Birth</label>
+            <input type="date" class="form-control" name="dob" placeholder="Enter Your Date Of Birth" value="dob" required>
+          </div>
+          <div class="col-5 col-md-5">
+            <label for="pincode" class=" col-form-label"><i class="fa fa-map-marker" aria-hidden="true"></i> Pincode</label>
+            <input type="text" class="form-control" name="Pincode" placeholder="Enter Your Pincode Here" required>
+          </div>
+
+        </div>
+        <div class=" row gap">
+
+          <div class="col-5 col-md-3">
+            <label for="state" class="col-form-label"><i class="fa fa-globe" aria-hidden="true"></i> State</label>
+            <input type="text" class="form-control" name="State" placeholder="Enter Your State" required>
+          </div>
+          <div class="col-5 col-md-5">
+            <label for="district" class=" col-form-label"><i class="fa fa-address-book-o" aria-hidden="true"></i> District</label>
+            <input type="text" class="form-control" name="District" placeholder="Enter Your District Here" required>
+          </div>
+
+        </div>
+        <div class=" row gap-2">
+
+          <div class="col-5 col-md-3">
+            <label for="Email" class="col-form-label"><i class="fa fa-envelope-o" aria-hidden="true"></i> Email</label>
+            <input type="email" class="form-control" name="Email" placeholder="Enter Your Email" required>
+          </div>
+          <div class="col-5 col-md-5">
+            <label for="Mobile" class=" col-form-label"><i class="fa fa-mobile" aria-hidden="true"></i> Mobile</label>
+            <input type="text" class="form-control" name="Mobile" placeholder="Enter Your Mobile Number Here" required>
+          </div>
+
+        </div>
+
+        <span class="note"><span class="eng-text">A copy of
+            Certificate issued will be sent to Email</span></span>
+        <div class="checkbox1"><label><input type="checkbox" name="insert_to_mygov" checked="true">Details given
+            above can be used to create a MyGov account on my behalf.</label></div>
+
+        <div class="form-group row">
+          <div class="offset-md-2 col-md-10 b">
+
+            <button type="submit" class="btn btn-primary"><span class="eng-text">Proceed for Language selection</span></button>
+          </div>
+        </div>
+
+      </form>
+    </div>
+    <div class="col-12 col-md">
+    </div>
+  </div>
+</body>
+
+</html>
